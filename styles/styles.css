@@ -185,25 +185,6 @@ body {
   margin: auto;
 }
 
-.navigation-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  fill: #242424;
-}
-
-
-.navigation-link:hover .navigation-icon {
-  fill: #242424;
-}
-
-.navigation-link:focus .navigation-icon {
-  fill: #242424;
-}
-
 .navigation-link-current::before {
   position: absolute;
   right: 20px;
