@@ -139,6 +139,10 @@ body {
   color: #756257;
 }
 
+.navigation-link:active {
+  opacity: 0.3;
+}
+
 .navigation-link:focus {
   box-shadow: inset 0 0 0 4px #e7e7e7;
   outline: none;
