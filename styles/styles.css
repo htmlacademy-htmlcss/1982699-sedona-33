@@ -146,19 +146,20 @@ body {
 .navigation-link::before {
   width: 20px;
   height: 20px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: currentcolor;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
 }
 
 .icon-search::before {
   content: "";
-  background-image: url("../images/icons/seach.svg");
+  mask-image: url("../images/icons/seach.svg");
 }
 
 .icon-favorites::before {
   content: "";
-  background-image: url("../images/icons/heart.svg");
+  mask-image: url("../images/icons/heart.svg");
 }
 
 .navigation-user {
