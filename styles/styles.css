@@ -152,16 +152,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
-  background-image: url("../images//icons//seach.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.icon-search::before {
+  content: "";
+  background-image: url("../images/icons/seach.svg");
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
-  background-image: url("../images//icons//heart.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.icon-favorites::before {
+  content: "";
+  background-image: url("../images/icons/heart.svg");
 }
 
 .navigation-user {
@@ -579,4 +577,3 @@ body {
   border-radius: 4px;
   margin-left: 290px;
 }
-
