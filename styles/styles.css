@@ -19,8 +19,7 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   width: 1200px;
   margin: 0 auto;
   font-family: "PT Sans", sans-serif;
@@ -62,9 +61,12 @@ body {
 
 
 .navigation-button {
-  background-color: #756257;
-  padding: 9px 15px;
+  margin: 14px 0;
+  padding: 9px 15px 8px;
+  line-height: 20px;
+  font-size: 16px;
   border-radius: 4px;
+  background-color: #756257;
 }
 
 .button button {
@@ -107,8 +109,17 @@ body {
 }
 
 .page-header {
+  z-index: 1;
   color: #000000;
   background: #ffffff;
+}
+
+.logo-link {
+  margin-bottom: -5px;
+}
+
+.logo-image {
+  margin-bottom: -5px;
 }
 
 .navigation {
@@ -119,13 +130,15 @@ body {
 
 .navigation-list {
   display: flex;
-  margin: 0;
-  list-style-type: none;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .navigation-link {
   display: flex;
+  margin: 20px 17px 19px;
   font-family: "PT Sans", sans-serif;
   line-height: 26px;
   font-size: 20px;
@@ -182,7 +195,7 @@ body {
 
 .navigation-user {
   max-width: 1060px;
-  margin: auto;
+  margin-left: auto;
 }
 
 .navigation-link[aria-current="page"] {
