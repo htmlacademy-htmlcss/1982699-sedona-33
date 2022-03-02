@@ -144,6 +144,14 @@ body {
   outline: none;
 }
 
+.navigation-link::before {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
   background-image: url("../images//icons//seach.svg");
   background-repeat: no-repeat;
